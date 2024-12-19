@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     background: #fff;
     font-family: "DM Sans", sans-serif;
@@ -53,6 +52,7 @@ body{
 }
 .menu a:hover{
     color:lightblue;
+    transition: 0.2s ease;
 }
 .menu i{
     margin-top: 25px;
@@ -62,7 +62,7 @@ body{
 }
 .menu i:hover{
     color:lightblue;
-
+    transition: 0.2s ease;
 }
 .slider{
     z-index: 10;
@@ -96,4 +96,102 @@ body{
     border-radius: 14px;
     font-size: 18px;
     text-transform: uppercase;
+}
+.button a:hover{
+    background: white;
+    color: black;
+    transition: 0.3s ease;
+}
+.services{
+    z-index: 10;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 750px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.img-services{
+    width: 400px;
+    padding-bottom: 30px;
+}
+.text{
+    width: 1200px;
+    margin: auto;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.parallax{
+    width: 100%;
+    height: 100vh;
+    background: url(images/5-web-para-trabajar-y-ganar-dinero-como-redactor-freelance.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-top: calc(50vh - 50px);
+}
+.h2sec{
+    color: #fff;
+    width: 800px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    line-height: 100px;
+    font-size: 44px;
+}
+
+.articles{
+    display: flex;
+    width: 100vh;
+    margin: 100px auto;
+    align-content: center;
+}
+.article{
+    display: inline-block;
+    width: 350px;
+    background: #fff;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.article-title{
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.article-text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+.article-button{
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 45px;
+    background: black;
+    color: white;
+    border-radius: 14px;
+    font-size: 16px;
+}
+.article-button:hover{
+    background: gray;
+    color: black;
+    transition: 0.3s ease;
+}
+.footer{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    height: 60px;
+    line-height: 60px; 
 }
