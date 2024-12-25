@@ -80,12 +80,15 @@ body{
     font-size: 80px;
     font-weight: 700;
     color: white;
+    text-shadow: 2px 2px 4px black;
+    
 }
 .title2{
     font-size: 50px;
     font-weight: 700;
     color: white;
     margin-bottom: 60px;
+    text-shadow: 2px 2px 4px black;
 }
 .button a{
     text-decoration: none;
@@ -152,28 +155,34 @@ body{
     margin: 100px auto;
     align-content: center;
 }
-.article{
-    display: inline-block;
+.article {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
     width: 350px;
     background: #fff;
     border: 2px solid black;
     border-radius: 8px;
     padding: 25px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 60px; 
+    margin-right: 60px;
 }
+
+.article-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: 300;
+    flex-grow: 1; 
+    padding-bottom: 20px;
+}
+
 .article-title{
     font-family: "DM Sans", sans-serif;
     font-size: 25px;
     font-weight: 700;
     padding-bottom: 20px;
 }
-.article-text{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 16px;
-    font-weight: 300;
-    padding-bottom: 30px;
-}
+
 .article-button{
     text-decoration: none;
     text-align: center;
